@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<ht lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Flowers that bring quiet joy every day. Minimal mono bouquets for homes, offices, gifts, and events.">
+  <title>Rental car</title>
+  <link rel="stylesheet" href="style1.css">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Odibee+Sans&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Grenze+Gotisch:wght@100..900&family=Neucha&family=Odibee+Sans&family=Saira+Semi+Condensed:wght@100;200;300;400;500;600;700;800;900&family=ZCOOL+QingKe+HuangYou&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#top" aria-label="Shop Flowers Sim home">Joul Rental</a>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#catalog">Catalog</a>
+      <a href="#mission">Mission</a>
+      <a href="#contact">Contact</a>
+      
+    </nav>
+    <a href="login.php"><button class="cart-button" type="button" >Login</button></a>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__content">
+        <p class="eyebrow">Explore the world with rental cars</p>
+         <h1 id="hero-title">On The Road To Adventure</h1>
+        <p>
+          Discover the freedom of the open road with our rental cars. Whether you're planning a weekend getaway or a long road trip, we have the perfect vehicle for your journey.
+        </p>
+        <a class="primary-link" href="#catalog">Shop the catalog</a>
+      </div>
+      <div class="hero__image-wrap">
+        <img src="img/car1.png" alt="Cosmos — white bouquet" class="hero__image">
+      </div>
+    </section>
+
+    <section class="use-cases" aria-label="Flower uses">
+      <div>Home and atmosphere</div>
+      <div>Office and mood</div>
+      <div>A gift and a person</div>
+      <div>Joy for no reason</div>
+    </section>
+
+    <section class="section" id="mission" aria-labelledby="mission-title">
+      <p class="eyebrow">Our mission</p>
+      <h2 id="mission-title">Explore the world</h2>
+      <div class="mission-grid">
+        <article>
+          <h3>Geting the best expearience</h3>
+          <p>Your journey starts with safety, affordability, and reliability.</p>
+        </article>
+        <article>
+          <h3>Affordable</h3>
+          <p>Rent smart. Drive safe. Travel affordably.</p>
+        </article>
+        <article>
+          <h3>safety and insurance</h3>
+          <p>Your trusted partner for safe, reliable, and affordable travel</p>
+        </article>
+      </div>
+    </section>
+    
+
+    <section class="section" id="catalog" aria-labelledby="catalog-title">
+      <p class="eyebrow">Catalog</p>
+      <h2 id="catalog-title">Choose Your Service Choice.</h2>
+      <div class="product-grid">
+        <article class="product-card">
+          <img src="img/car2.png" alt="Cosmos — white" loading="lazy">
+          <div class="product-card__body">
+            <p class="product-card__category">Red Masadias </p>
+            <h3>CITY CARS</h3>
+            <div class="product-card__footer">
+              <span class="product-card__price">$8</span>
+              <a href="second.php"><button type="button">
+                Add to cart
+              </button></a>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="img/car4.png" alt="Gerbera — red" loading="lazy">
+          <div class="product-card__body">
+            <p class="product-card__category">CITY CARS</p>
+            <h3>VANS</h3>
+            <div class="product-card__footer">
+              <span class="product-card__price">$9</span>
+              <button type="button" data-add-to-cart data-name="Gerbera — red" data-price="9">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="img/car5.png" alt="Alstroemeria — pink" loading="lazy">
+          <div class="product-card__body">
+            <p class="product-card__category">Mono bouquet</p>
+            <h3>SCOOTERS</h3>
+            <div class="product-card__footer">
+              <span class="product-card__price">$12</span>
+              <button type="button" data-add-to-cart data-name="Alstroemeria — pink" data-price="12">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </article>
+        <article class="product-card">
+          <img src="img/car6.png" alt="Koala — white" loading="lazy">
+          <div class="product-card__body">
+            <p class="product-card__category">Mono bouquet</p>
+            <h3>BICYCLES</h3>
+            <div class="product-card__footer">
+              <span class="product-card__price">$11</span>
+              <button type="button" data-add-to-cart data-name="Koala — white" data-price="11">
+                Add to cart
+              </button>
+            </div>
+          </div>
+        </article>
+        
+        
+       
+      </div>
+    </section>
+
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">Get in touch</p>
+        <h2 id="contact-title">Do you have any questions?</h2>
+      </div>
+      <p>
+       Our team is ready to assist you. Contact us anytime for quick and friendly support. 
+      </p>
+      <a class="primary-link primary-link--light" href="Rentalcar@gmail.iu">Rental@gmail.iu</a>
+    </section>
+  </main>
+
+  <aside class="cart-panel" aria-labelledby="cart-title" aria-hidden="true" data-cart-panel>
+    <div class="cart-panel__header">
+      <h2 id="cart-title">Your cart</h2>
+      <button class="icon-button" type="button" aria-label="Close cart" data-close-cart>&times;</button>
+    </div>
+    <div class="cart-items" data-cart-items></div>
+    <p class="cart-empty" data-cart-empty>Your cart is empty.</p>
+    <div class="cart-panel__footer">
+      <div class="cart-total">
+        <span>Total</span>
+        <strong data-cart-total>$0</strong>
+      </div>
+      <button class="checkout-button" type="button" data-checkout>Checkout</button>
+    </div>
+  </aside>
+  <div class="cart-overlay" data-cart-overlay></div>
+  <script src="shop-flowers-sim.js" defer></script>
+</body>
+</html>
